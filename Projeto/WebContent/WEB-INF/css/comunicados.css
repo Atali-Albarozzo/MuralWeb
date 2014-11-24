@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+/*
+	COMUNICADO CSS
+*/
+.content .title-div{
+	background-image: -webkit-linear-gradient(top,#2fb5f7,#0088cc); 
+	color:white;
+	font-family:serif;
+	font-size:x-large;
+	font-weight:bold;
+	padding: 10px 20px;
+/* 	margin-bottom: 30px; */
+	text-align:left	;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	width: auto;
+	-webkit-border-radius: 15px 0px 15px 0px;
+}
+
+.content .board{
+/*  	background-image:url("../img/fabric.png");  */
+	background-color: #FFFFFF;
+	border:1px solid #2fb5f7;
+	float:left;
+	height:auto;
+/*   	padding: 20px 10px 50px 10px !important; */
+	padding-bottom:50px;	
+	width:100%;
+	-webkit-border-radius: 15px 0px 0px 0px;
+}
+
+.content .board .search-bar{
+	background-image: -webkit-linear-gradient(top,#FFFFFF,#DCDCDC);
+	padding: 10px 10px 10px 10px;	
+}
+
+.content .board .search-bar .search-table{
+		
+}
+
+@media (max-width: 767px) {
+	#footer,
+	.content .title-div,
+	.content .communication-panel,
+	.content .board,
+	.content .board .event-panel,
+	.content .board .opp-panel{
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (max-width: 767px) {
+	#footer,
+	.content .title-div,
+	.content .communication-panel,
+	.content .board,
+	.content .board .event-panel,
+	.content .board .opp-panel{
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

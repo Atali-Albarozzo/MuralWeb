@@ -1,0 +1,93 @@
+/* 
+	FORM-USUARIOS CSS
+*/
+body{
+	 background-image: -webkit-linear-gradient(top,#aebfbf,#FFFFFF);
+}
+
+table{
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;
+}
+
+.search-comunicado .title-div{
+	background-image: -webkit-linear-gradient(top,#2fb5f7,#0088cc); 
+	color:white;
+	font-family:serif;
+	font-size:x-large;
+	font-weight:bold;
+	padding: 10px 20px;
+	/*margin-bottom: 30px;*/
+	text-align:left;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	width: auto;
+	-webkit-border-radius: 15px 0px 15px 0px;
+}
+
+.search-comunicado .search-control-fields{
+	float: left;
+}
+
+.search-comunicado .search-table{
+	font-size: small;
+	border-collapse: collapse;
+}
+
+.search-comunicado .communication-grid{
+	background-color: white;
+	border:1px solid #C1CDCD;
+
+}
+
+.search-comunicado .communication-grid tbody tr:hover td{
+	background-color: #AFEEEE;
+	cursor: pointer;
+}
+
+.navbar-inner .welcome-text{
+	font-size: small;
+	float: right;
+}
+
+.navbar-inner .logout{
+	float: right;
+	font-style: 
+}
+
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], 
+input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], 
+.uneditable-input {
+	height: 30px !important;
+}
+
+.tableCommunication{
+	width: 100%;
+	height: auto;
+}
+  
+.tableCommunication tr td{
+	padding: 5px 5px;
+}
+
+.tableCommunication tr td input[type="text"]{
+	width:100%;
+}
+
+.tableCommunication tr td textarea{
+	resize: none;
+	width: 100%; 
+	min-height: 200px;
+	height: auto;
+	draggable: false;
+}

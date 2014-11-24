@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+
+/* 
+	MAIN CSS
+*/
+.content .title-div{
+	background-image: -webkit-linear-gradient(top,#2fb5f7,#0088cc); 
+	color:white;
+	font-family:serif;
+	font-size:x-large;
+	font-weight:bold;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	text-align:center;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	width: auto;
+	-webkit-border-radius: 15px 0px 15px 0px;
+}
+
+.content .board{
+/*  	background-image:url("../img/fabric.png");  */
+	background-color: #FFFFFF;
+	border:1px solid #2fb5f7;
+	float:left;
+	height:auto;
+ 	float: right;
+	padding-bottom:50px;
+	width:77%;
+	-webkit-border-radius: 15px 0px 0px 0px;
+}
+
+.content .board .container{
+	padding: 0 0 0 0 ;	
+}
+
+.content .board .sub-title-div{
+	background-image: -webkit-linear-gradient(top,#fff,#f2f2f2);	
+	border: 1px solid #CFCFCF;
+	font-size: 14px;
+	padding: 4px 10px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+}
+
+.content .board .sub-title-div img{
+	width:24px;
+	height:24px;
+	padding-right: 10px;
+}
+
+.content .board .event-panel {
+	background-color:#FFFFFF;
+	float:left;
+	font-size:12px;
+ 	margin-left:15px;
+ 	width:47%;
+}
+
+.content .board .opp-panel{
+	background-color:#FFFFFF;
+	float:left;
+	font-size:12px;	
+ 	margin-left:10px;
+	width:47%; 
+}
+
+.communication-panel{
+/* 	background-image:url("../img/fabric.png");  */
+	background-color: #FFFFFF;
+	border:1px solid #2fb5f7;
+	float:left;
+	height:auto;
+/*  margin:30px 0 20px 40px;  */
+	padding-bottom:50px;
+  	width:20%;  
+	-webkit-border-radius: 15px 0px 0px 0px;
+}
+
+.communication-panel .communication-div{
+/* 	background-color:white; */
+	background-image:-webkit-linear-gradient(top,#fff,#f2f2f2);
+	border:1px solid #CFCFCF;
+	height:auto;
+	line-height: 12px !important;
+	margin: 0 0 5px 9px;
+	min-height:90px;
+  	padding:5px 5px 0px 5px;
+  	text-align:justify;
+	width:85%;
+}
+
+.communication-panel .communication-div:hover{
+	cursor:pointer;
+	border:1px solid #0088cc;
+}
+
+.communication-panel .communication-div img{
+	border:1px solid #000000;
+	float:left;
+	height:auto;
+	margin-right:5px;
+	padding-bottom:2px;
+	width:25%;
+}
+
+.communication-panel .communication-div #communicationTitle{
+	font-size:11px;
+	font-weight:bold;
+}
+
+.communication-panel .communication-div #communicationText{
+	font-size:10px;
+	font-family:sans-serif;
+	text-align:left;
+}
+
+@media (max-width: 767px) {
+	#footer,
+	.content .title-div,
+	.content .communication-panel,
+	.content .board,
+	.content .board .event-panel,
+	.content .board .opp-panel{
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
